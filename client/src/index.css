@@ -1,0 +1,23 @@
+/* .square {
+  border-radius: 5px; 
+}
+
+.jumbotron {
+  background-image: solid;
+  color: blue;
+}
+
+
+
+Rounded edges for various components */
+/* .ant-btn, .ant-input, .ant-menu, .ant-layout-sider, .jumbotron {
+  border-radius: 15px; /* This applies rounded edges globally */
+/* } */ */
+
+/* Adjust the UserNav component styling if needed */
+/* .UserNav {
+  padding: 10px;
+  border-right: 1px solid #f0f2f5; /* To give a line separation if needed */
+/* } */ */
+
+

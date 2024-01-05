@@ -1,0 +1,15 @@
+/* InstructorDashboard.css */
+
+.site-card-wrapper {
+    margin: 40px;
+  }
+  
+  .ant-card {
+    text-align: center;
+  }
+  
+  .ant-card-title {
+    font-size: 20px;
+    color: #1890ff; /* Ant Design primary color */
+  }
+  

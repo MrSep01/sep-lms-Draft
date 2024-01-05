@@ -1,0 +1,28 @@
+{
+  "name": "mern-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server --ignore client",
+    "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.12.5",
+    "aws-sdk": "^2.1526.0",
+    "bootstrap": "^5.3.2",
+    "query-string": "^8.1.0",
+    "react-bootstrap": "^2.9.2",
+    "stripe": "^14.10.0"
+  }
+}

@@ -1,0 +1,196 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .hero-section {
+    background-color: #e6f2ff; /* Lighter shade of blue */
+    color: #003366; /* Dark blue text for contrast */
+    text-align: center;
+    padding: 5rem 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hero-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .hero-section .ant-typography {
+    color: #003366;
+  }
+  
+  .feature-list {
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .feature-list .anticon {
+    color: #2ecc71; /* Green check icon */
+    margin-right: 0.5rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .feature-list .anticon:hover {
+    transform: scale(1.1);
+  }
+  
+  .stats-section .ant-col {
+    margin-bottom: 1rem;
+  }
+  
+  .stats-section .ant-card {
+    text-align: center;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .stats-section .ant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats-section .ant-card .ant-typography {
+    margin-bottom: 0.5rem;
+  }
+  
+  .cta-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #b8e994; /* Lighter shade of green */
+    color: #003366; /* Dark blue text for contrast */
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-section:hover {
+    background-color: #a9dfbf; /* Slightly darker shade of green for hover */
+  }
+  
+  .cta-section .anticon {
+    color: #003366;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .cta-section .anticon:hover {
+    transform: rotate(90deg);
+  }
+  
+  .cta-section .ant-btn-primary {
+    background-color: #0052cc;
+    border-color: #0052cc;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    padding: 0.5rem 3rem;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .cta-section .ant-btn-primary:hover {
+    background-color: #003366;
+    border-color: #003366;
+    transform: scale(1.05);
+  }
+  
+  /* Add some padding around the input */
+  .hero-section .ant-input-affix-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input placeholder color */
+  .hero-section .ant-input::placeholder {
+    color: rgba(0, 51, 102, 0.7); /* Dark blue placeholder text */
+  }
+  
+  /* Style for the input search button */
+  .hero-section .ant-btn {
+    background-color: #2ecc71; /* Green button */
+    border-color: #2ecc71;
+    color: #003366; /* Dark blue text */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover state for input search button */
+  .hero-section .ant-btn:hover,
+  .hero-section .ant-btn:focus {
+    background-color: #27ae60; /* Darker shade of green */
+    border-color: #27ae60;
+  }
+  
+  /* Slider styling */
+  .slider-section {
+    margin: 2rem 0;
+  }
+  
+  .slider-content {
+    padding: 1rem;
+    background: #e6f2ff; /* Light blue background */
+    border-radius: 0.5rem;
+    text-align: center;
+    user-select: none;
+    cursor: grab;
+  }
+  
+  .slider-content:hover {
+    background: #cce0ff; /* Slightly darker blue on hover */
+  }
+  
+  .slider-content:active {
+    cursor: grabbing;
+  }
+  
+  .slider-item {
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Add interactivity with a library like Swiper for slider functionality */
+  /* Include Swiper's CSS in your project to use these classes */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #2ecc71;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 2rem 1rem;
+    }
+  
+    .feature-list {
+      margin: 1rem 0;
+    }
+  
+    .stats-section .ant-col {
+      margin-bottom: 1rem;
+    }
+  
+    .cta-section {
+      padding: 2rem 1rem;
+    }
+  }
+  

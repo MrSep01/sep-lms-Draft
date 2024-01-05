@@ -1,0 +1,16 @@
+/* Nav.css */
+
+/* Style for the entire navbar */
+.custom-navbar {
+    background-color: #e7eff0; /* Change to your preferred background color */
+    padding: 12px 0; /* Increase padding for a larger navbar */
+    border-bottom: 0px solid #096dd9; /* Add a bottom border for separation */
+  }
+  
+  /* Style for submenu */
+  .custom-submenu {
+    background-color: #1890ff; /* Change to your preferred submenu background color */
+    border-top: opx solid #096dd9; /* Add a top border for separation */
+    color: #fff; /* Change to your preferred submenu text color */
+  }
+  
